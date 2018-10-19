@@ -1,5 +1,5 @@
 
 ### **Notes-for-2018**
 
-[工作学习笔记整理](https://segmentfault.com/u/lyon_5a0bef4996d68/notes)  
+[工作&学习笔记整理](https://segmentfault.com/u/lyon_5a0bef4996d68/notes)  
 [个人文章](https://segmentfault.com/u/lyon_5a0bef4996d68/articles)
