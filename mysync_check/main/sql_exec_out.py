@@ -63,7 +63,7 @@ zk3_info = []
 rdsm_info = []
 rdss_info = []
 
-my_zk3 = MysqlClient('localhost', 3306, 'root', 'aSEe201803efSE', 'eichong')
+my_zk3 = MysqlClient('localhost', 3306, 'root', 'passwd', 'db')
 zk3_char_order = my_zk3.exec_sql(sql)
 zk3_char_record = my_zk3.exec_sql(sql2)
 zk3_pur_history = my_zk3.exec_sql(sql3)
@@ -79,7 +79,7 @@ zk3_info.append(zk3_index_size[0]['index_size'])
 zk3_info.append(zk3_last_order[0]['b_time'])
 
 
-my_rds_m = MysqlClient('rm-uf6426u9v92z31yjpo.mysql.rds.aliyuncs.com', 3306, 'aichong', 'aichong123', 'eichong')
+my_rds_m = MysqlClient('host1', 3306, 'user', 'passwd', 'db')
 rdsm_char_order = my_rds_m.exec_sql(sql)
 rdsm_char_record = my_rds_m.exec_sql(sql2)
 rdsm_pur_history = my_rds_m.exec_sql(sql3)
@@ -94,7 +94,7 @@ rdsm_info.append(rdsm_data_size[0]['data_size'])
 rdsm_info.append(rdsm_index_size[0]['index_size'])
 rdsm_info.append(rdsm_last_order[0]['b_time'])
 
-my_rds_s = MysqlClient('rr-uf6456i7652v46v19o.mysql.rds.aliyuncs.com', 3306, 'aichong', 'aichong123', 'eichong')
+my_rds_s = MysqlClient('host2', 3306, 'user', 'passwd', 'db')
 rdss_char_order = my_rds_s.exec_sql(sql)
 rdss_char_record = my_rds_s.exec_sql(sql2)
 rdss_pur_history = my_rds_s.exec_sql(sql3)
