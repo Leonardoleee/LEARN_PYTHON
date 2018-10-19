@@ -106,15 +106,6 @@ rdss_info.append(rdss_data_size[0]['col4'])
 rdss_info.append(rdss_index_size[0]['col5'])
 rdss_info.append(rdss_last_order[0]['col6'])
 
-#if (rdsm_info[1] - zk3_info[1] <= 10) and (rdsm_info[2] - zk3_info[2] <= 10) and (rdsm_info[3] - zk3_info[3]) <= 10:
-#	stat1 = '健康'
-#else:
-#	stat1 = '异常'
-#	
-#if (rdss_info[1] - rdsm_info[1] <= 10) and (rdss_info[2] - rdsm_info[2] <= 10) and (rdss_info[3] - rdsm_info[3]) <= 10:
-#	stat2 = '健康'
-#else:
-#	stat2 = '异常'
 if rdsm_info[1] - zk3_info[1]:
 	stat1 = '健康'
 else:
