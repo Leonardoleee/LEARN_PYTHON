@@ -18,9 +18,7 @@ def sync_stat():
         traceback.print_exc()
 
 if __name__ == "__main__":
-    print("Application is beginning ...... ")
     try:
         sync_stat()
     except Exception as e:
         print(e)
-    print("Application was finnished . ")
