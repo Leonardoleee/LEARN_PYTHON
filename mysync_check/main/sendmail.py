@@ -32,19 +32,19 @@ def send_mail():
     #163邮箱smtp服务器
 	host_server = 'smtp.163.com'
 	#sender_163为发件人的163号码
-	sender_163 = '18506582337@163.com'
+	sender_163 = ''
 	#pwd为163邮箱的授权码
-	pwd = '0okmnhy6'
+	pwd = ''
 	#发件人的邮箱
-	sender_163_mail = '18506582337@163.com'
+	sender_163_mail = ''
 	#收件人邮箱
-	receiver = 'lilaibang@wanmagroup.com, huangyipeng@wanmagroup.com'
+	receiver = ''
 	# 邮件的正文内容
 	mail_content = "mysql sync info"
 	# 邮件标题
 	mail_title = 'mysql同步信息'
 	#接收邮件列表,是list,不是字符串 
-	mail_to  = ['lilaibang@wanmagroup.com', 'huangyipeng@wanmagroup.com']     
+	mail_to  = []     
 
 	# 邮件正文内容
 	# msg = MIMEMultipart()
